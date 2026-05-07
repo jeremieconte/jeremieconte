@@ -38,6 +38,17 @@ I'm a Software Engineer and SCRUM Project Manager specialized in web application
 - 📱 Responsive Design
 - 🔍 Requirements Analysis
 
+### 🌟 Expertise Domains:
+
+- 🏥 Healthcare Information Systems
+- 👥 Social Services Applications
+- 🤝 Public Sector Solutions
+- 🔐 Accessibility Compliance
+- 📋 Project Management
+- 🎨 UX/UI Design
+
+---
+
 ### 📈 GitHub Activity:
 
 <div align="center">
@@ -49,15 +60,3 @@ I'm a Software Engineer and SCRUM Project Manager specialized in web application
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jeremieconte&layout=compact&theme=radical)
 
 </div>
-
-### 🌟 Expertise Domains:
-
-- 🏥 Healthcare Information Systems
-- 👥 Social Services Applications
-- 🤝 Public Sector Solutions
-- 🔐 Accessibility Compliance
-- 📋 Project Management
-- 🎨 UX/UI Design
-
-
----
