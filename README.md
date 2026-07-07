@@ -118,17 +118,6 @@ gantt
 
 <div align="center">
 
-<!-- Remplacez VOTRE-PROFIL et l'adresse e-mail ci-dessous -->
-<a href="https://www.linkedin.com/in/VOTRE-PROFIL/">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%C3%89changeons-000091?style=for-the-badge" />
-</a>
-&nbsp;
-<a href="mailto:prenom.nom@exemple.fr">
-  <img alt="E-mail" src="https://img.shields.io/badge/E--mail-M%27%C3%A9crire-E1000F?style=for-the-badge" />
-</a>
-
-<br/><br/>
-
 <img alt="Compteur de visites du profil" src="https://komarev.com/ghpvc/?username=jeremieconte&style=flat-square&color=000091&label=Visites+du+profil" />
 
 <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:6A6AF4,100:000091&height=110&section=footer" />
