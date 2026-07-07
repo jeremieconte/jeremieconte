@@ -114,8 +114,6 @@ gantt
 
 </div>
 
-## 📫 Contact
-
 <div align="center">
 
 <img alt="Compteur de visites du profil" src="https://komarev.com/ghpvc/?username=jeremieconte&style=flat-square&color=000091&label=Visites+du+profil" />
