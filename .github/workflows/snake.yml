@@ -1,0 +1,43 @@
+# ════════════════════════════════════════════════════════════════
+# Animation « snake » des contributions
+# ────────────────────────────────────────────────────────────────
+# Emplacement dans le dépôt : .github/workflows/snake.yml
+# Prérequis (une seule fois) :
+#   Settings → Actions → General → Workflow permissions
+#   → cocher « Read and write permissions »
+# Premier lancement : onglet Actions → ce workflow → Run workflow
+# Ensuite, régénération automatique chaque nuit.
+# ════════════════════════════════════════════════════════════════
+name: Générer le snake des contributions
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # tous les jours à 03h00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Générer les SVG (clair + sombre, palette bleu France)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#000091&color_dots=#EEEEFF,#B1B1F9,#6A6AF4,#2323BE,#000091
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#8B8BF6
+
+      - name: Publier sur la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
